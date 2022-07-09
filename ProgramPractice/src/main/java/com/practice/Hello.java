@@ -12,6 +12,7 @@ public class Hello {
 		driver.findElement(By.id("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.id("loginButton")).click();
+		System.out.println("test");
 		
 	}
 
